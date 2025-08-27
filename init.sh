@@ -10,6 +10,9 @@ echo "▶ Using Python ${PY_VERSION}"
 # 1) Tell pyenv which Python this project uses
 pyenv local "${PY_VERSION}"
 
+# remove template-only files
+rm -f how_to_use_the_template.md
+
 # 2) Create and activate a project virtual environment
 python -m venv .venv
 # shellcheck disable=SC1091
