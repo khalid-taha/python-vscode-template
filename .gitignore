@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code (keep settings.json only)
+.vscode/*
+!.vscode/settings.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.log
+*.pid
+*.sock
+*.tmp
