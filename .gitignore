@@ -24,3 +24,7 @@ Thumbs.db
 *.pid
 *.sock
 *.tmp
+
+# template only files
+how_to_use_the_template.md
+
